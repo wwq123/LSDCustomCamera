@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C26E7771E556FF400CD7732 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E7761E556FF400CD7732 /* LLSimpleCamera.m */; };
+		6C26E77A1E55702800CD7732 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E7791E55702800CD7732 /* UIImage+FixOrientation.m */; };
+		6C26E77D1E55705300CD7732 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E77C1E55705300CD7732 /* LLSimpleCamera+Helper.m */; };
+		6C26E7801E5570F800CD7732 /* LSDCustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E77F1E5570F800CD7732 /* LSDCustomCameraVC.m */; };
+		6C26E7831E5590A400CD7732 /* LSDFinishVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E7821E5590A400CD7732 /* LSDFinishVC.m */; };
+		6C26E7871E55A24F00CD7732 /* LSDAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E7861E55A24F00CD7732 /* LSDAlertTool.m */; };
+		6C26E78A1E55A29000CD7732 /* LSDAssetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C26E7891E55A29000CD7732 /* LSDAssetTool.m */; };
+		6C272D591E52E858006B6A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C272D581E52E858006B6A1E /* main.m */; };
+		6C272D5C1E52E858006B6A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C272D5B1E52E858006B6A1E /* AppDelegate.m */; };
+		6C272D5F1E52E858006B6A1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C272D5E1E52E858006B6A1E /* ViewController.m */; };
+		6C272D621E52E858006B6A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C272D601E52E858006B6A1E /* Main.storyboard */; };
+		6C272D641E52E858006B6A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C272D631E52E858006B6A1E /* Assets.xcassets */; };
+		6C272D671E52E858006B6A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C272D651E52E858006B6A1E /* LaunchScreen.storyboard */; };
+		6C272D721E52E858006B6A1E /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C272D711E52E858006B6A1E /* ____Tests.m */; };
+		6C272D7D1E52E858006B6A1E /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C272D7C1E52E858006B6A1E /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C272D6E1E52E858006B6A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C272D4C1E52E858006B6A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C272D531E52E858006B6A1E;
+			remoteInfo = "选择图片";
+		};
+		6C272D791E52E858006B6A1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C272D4C1E52E858006B6A1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C272D531E52E858006B6A1E;
+			remoteInfo = "选择图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C26E7751E556FF400CD7732 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		6C26E7761E556FF400CD7732 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		6C26E7781E55702800CD7732 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		6C26E7791E55702800CD7732 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		6C26E77B1E55705300CD7732 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		6C26E77C1E55705300CD7732 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		6C26E77E1E5570F800CD7732 /* LSDCustomCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCustomCameraVC.h; sourceTree = "<group>"; };
+		6C26E77F1E5570F800CD7732 /* LSDCustomCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCustomCameraVC.m; sourceTree = "<group>"; };
+		6C26E7811E5590A400CD7732 /* LSDFinishVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDFinishVC.h; sourceTree = "<group>"; };
+		6C26E7821E5590A400CD7732 /* LSDFinishVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDFinishVC.m; sourceTree = "<group>"; };
+		6C26E7851E55A24F00CD7732 /* LSDAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAlertTool.h; sourceTree = "<group>"; };
+		6C26E7861E55A24F00CD7732 /* LSDAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAlertTool.m; sourceTree = "<group>"; };
+		6C26E7881E55A29000CD7732 /* LSDAssetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDAssetTool.h; sourceTree = "<group>"; };
+		6C26E7891E55A29000CD7732 /* LSDAssetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDAssetTool.m; sourceTree = "<group>"; };
+		6C272D541E52E858006B6A1E /* 选择图片-单张.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选择图片-单张.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C272D581E52E858006B6A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C272D5A1E52E858006B6A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C272D5B1E52E858006B6A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C272D5D1E52E858006B6A1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C272D5E1E52E858006B6A1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C272D611E52E858006B6A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C272D631E52E858006B6A1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C272D661E52E858006B6A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C272D681E52E858006B6A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C272D6D1E52E858006B6A1E /* 选择图片-单张Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "选择图片-单张Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C272D711E52E858006B6A1E /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		6C272D731E52E858006B6A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C272D781E52E858006B6A1E /* 选择图片-单张UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "选择图片-单张UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C272D7C1E52E858006B6A1E /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		6C272D7E1E52E858006B6A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C272D511E52E858006B6A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D6A1E52E858006B6A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D751E52E858006B6A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C26E7741E556FF400CD7732 /* 自定义相机 */ = {
+			isa = PBXGroup;
+			children = (
+				6C26E77B1E55705300CD7732 /* LLSimpleCamera+Helper.h */,
+				6C26E77C1E55705300CD7732 /* LLSimpleCamera+Helper.m */,
+				6C26E7781E55702800CD7732 /* UIImage+FixOrientation.h */,
+				6C26E7791E55702800CD7732 /* UIImage+FixOrientation.m */,
+				6C26E7751E556FF400CD7732 /* LLSimpleCamera.h */,
+				6C26E7761E556FF400CD7732 /* LLSimpleCamera.m */,
+			);
+			path = "自定义相机";
+			sourceTree = "<group>";
+		};
+		6C26E7841E55A24F00CD7732 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6C26E7881E55A29000CD7732 /* LSDAssetTool.h */,
+				6C26E7891E55A29000CD7732 /* LSDAssetTool.m */,
+				6C26E7851E55A24F00CD7732 /* LSDAlertTool.h */,
+				6C26E7861E55A24F00CD7732 /* LSDAlertTool.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6C272D4B1E52E858006B6A1E = {
+			isa = PBXGroup;
+			children = (
+				6C272D561E52E858006B6A1E /* 选择图片-单张 */,
+				6C272D701E52E858006B6A1E /* 选择图片Tests */,
+				6C272D7B1E52E858006B6A1E /* 选择图片UITests */,
+				6C272D551E52E858006B6A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C272D551E52E858006B6A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C272D541E52E858006B6A1E /* 选择图片-单张.app */,
+				6C272D6D1E52E858006B6A1E /* 选择图片-单张Tests.xctest */,
+				6C272D781E52E858006B6A1E /* 选择图片-单张UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C272D561E52E858006B6A1E /* 选择图片-单张 */ = {
+			isa = PBXGroup;
+			children = (
+				6C272D5A1E52E858006B6A1E /* AppDelegate.h */,
+				6C272D5B1E52E858006B6A1E /* AppDelegate.m */,
+				6C272D5D1E52E858006B6A1E /* ViewController.h */,
+				6C272D5E1E52E858006B6A1E /* ViewController.m */,
+				6C26E77E1E5570F800CD7732 /* LSDCustomCameraVC.h */,
+				6C26E77F1E5570F800CD7732 /* LSDCustomCameraVC.m */,
+				6C26E7811E5590A400CD7732 /* LSDFinishVC.h */,
+				6C26E7821E5590A400CD7732 /* LSDFinishVC.m */,
+				6C26E7741E556FF400CD7732 /* 自定义相机 */,
+				6C26E7841E55A24F00CD7732 /* Other */,
+				6C272D601E52E858006B6A1E /* Main.storyboard */,
+				6C272D631E52E858006B6A1E /* Assets.xcassets */,
+				6C272D651E52E858006B6A1E /* LaunchScreen.storyboard */,
+				6C272D681E52E858006B6A1E /* Info.plist */,
+				6C272D571E52E858006B6A1E /* Supporting Files */,
+			);
+			name = "选择图片-单张";
+			path = "选择图片";
+			sourceTree = "<group>";
+		};
+		6C272D571E52E858006B6A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C272D581E52E858006B6A1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C272D701E52E858006B6A1E /* 选择图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C272D711E52E858006B6A1E /* ____Tests.m */,
+				6C272D731E52E858006B6A1E /* Info.plist */,
+			);
+			path = "选择图片Tests";
+			sourceTree = "<group>";
+		};
+		6C272D7B1E52E858006B6A1E /* 选择图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C272D7C1E52E858006B6A1E /* ____UITests.m */,
+				6C272D7E1E52E858006B6A1E /* Info.plist */,
+			);
+			path = "选择图片UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C272D531E52E858006B6A1E /* 选择图片-单张 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C272D811E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张" */;
+			buildPhases = (
+				6C272D501E52E858006B6A1E /* Sources */,
+				6C272D511E52E858006B6A1E /* Frameworks */,
+				6C272D521E52E858006B6A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选择图片-单张";
+			productName = "选择图片";
+			productReference = 6C272D541E52E858006B6A1E /* 选择图片-单张.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C272D6C1E52E858006B6A1E /* 选择图片-单张Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C272D841E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张Tests" */;
+			buildPhases = (
+				6C272D691E52E858006B6A1E /* Sources */,
+				6C272D6A1E52E858006B6A1E /* Frameworks */,
+				6C272D6B1E52E858006B6A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C272D6F1E52E858006B6A1E /* PBXTargetDependency */,
+			);
+			name = "选择图片-单张Tests";
+			productName = "选择图片Tests";
+			productReference = 6C272D6D1E52E858006B6A1E /* 选择图片-单张Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C272D771E52E858006B6A1E /* 选择图片-单张UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C272D871E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张UITests" */;
+			buildPhases = (
+				6C272D741E52E858006B6A1E /* Sources */,
+				6C272D751E52E858006B6A1E /* Frameworks */,
+				6C272D761E52E858006B6A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C272D7A1E52E858006B6A1E /* PBXTargetDependency */,
+			);
+			name = "选择图片-单张UITests";
+			productName = "选择图片UITests";
+			productReference = 6C272D781E52E858006B6A1E /* 选择图片-单张UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C272D4C1E52E858006B6A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SelenaWong;
+				TargetAttributes = {
+					6C272D531E52E858006B6A1E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 392TQSX9ET;
+						ProvisioningStyle = Automatic;
+					};
+					6C272D6C1E52E858006B6A1E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C272D531E52E858006B6A1E;
+					};
+					6C272D771E52E858006B6A1E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C272D531E52E858006B6A1E;
+					};
+				};
+			};
+			buildConfigurationList = 6C272D4F1E52E858006B6A1E /* Build configuration list for PBXProject "选择图片-单张" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C272D4B1E52E858006B6A1E;
+			productRefGroup = 6C272D551E52E858006B6A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C272D531E52E858006B6A1E /* 选择图片-单张 */,
+				6C272D6C1E52E858006B6A1E /* 选择图片-单张Tests */,
+				6C272D771E52E858006B6A1E /* 选择图片-单张UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C272D521E52E858006B6A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C272D671E52E858006B6A1E /* LaunchScreen.storyboard in Resources */,
+				6C272D641E52E858006B6A1E /* Assets.xcassets in Resources */,
+				6C272D621E52E858006B6A1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D6B1E52E858006B6A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D761E52E858006B6A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C272D501E52E858006B6A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C26E7771E556FF400CD7732 /* LLSimpleCamera.m in Sources */,
+				6C272D5F1E52E858006B6A1E /* ViewController.m in Sources */,
+				6C272D5C1E52E858006B6A1E /* AppDelegate.m in Sources */,
+				6C26E77D1E55705300CD7732 /* LLSimpleCamera+Helper.m in Sources */,
+				6C26E78A1E55A29000CD7732 /* LSDAssetTool.m in Sources */,
+				6C26E77A1E55702800CD7732 /* UIImage+FixOrientation.m in Sources */,
+				6C26E7801E5570F800CD7732 /* LSDCustomCameraVC.m in Sources */,
+				6C272D591E52E858006B6A1E /* main.m in Sources */,
+				6C26E7871E55A24F00CD7732 /* LSDAlertTool.m in Sources */,
+				6C26E7831E5590A400CD7732 /* LSDFinishVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D691E52E858006B6A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C272D721E52E858006B6A1E /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C272D741E52E858006B6A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C272D7D1E52E858006B6A1E /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C272D6F1E52E858006B6A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C272D531E52E858006B6A1E /* 选择图片-单张 */;
+			targetProxy = 6C272D6E1E52E858006B6A1E /* PBXContainerItemProxy */;
+		};
+		6C272D7A1E52E858006B6A1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C272D531E52E858006B6A1E /* 选择图片-单张 */;
+			targetProxy = 6C272D791E52E858006B6A1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C272D601E52E858006B6A1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C272D611E52E858006B6A1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C272D651E52E858006B6A1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C272D661E52E858006B6A1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C272D7F1E52E858006B6A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C272D801E52E858006B6A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C272D821E52E858006B6A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 392TQSX9ET;
+				INFOPLIST_FILE = "选择图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lierda.singerPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C272D831E52E858006B6A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 392TQSX9ET;
+				INFOPLIST_FILE = "选择图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lierda.singerPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C272D851E52E858006B6A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "选择图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lierda.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/选择图片-单张.app/选择图片-单张";
+			};
+			name = Debug;
+		};
+		6C272D861E52E858006B6A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "选择图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lierda.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/选择图片-单张.app/选择图片-单张";
+			};
+			name = Release;
+		};
+		6C272D881E52E858006B6A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "选择图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lierda.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "选择图片";
+			};
+			name = Debug;
+		};
+		6C272D891E52E858006B6A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "选择图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lierda.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "选择图片";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C272D4F1E52E858006B6A1E /* Build configuration list for PBXProject "选择图片-单张" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C272D7F1E52E858006B6A1E /* Debug */,
+				6C272D801E52E858006B6A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C272D811E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C272D821E52E858006B6A1E /* Debug */,
+				6C272D831E52E858006B6A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C272D841E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C272D851E52E858006B6A1E /* Debug */,
+				6C272D861E52E858006B6A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C272D871E52E858006B6A1E /* Build configuration list for PBXNativeTarget "选择图片-单张UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C272D881E52E858006B6A1E /* Debug */,
+				6C272D891E52E858006B6A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C272D4C1E52E858006B6A1E /* Project object */;
+}
